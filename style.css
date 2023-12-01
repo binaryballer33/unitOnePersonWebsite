@@ -53,6 +53,15 @@ img {
   max-height: 600px;
 }
 
+.profilePictureDiv {
+  margin-left: 35%;
+}
+
+.profilePicture  {
+  width: 500px;
+  max-height: 600px;
+}
+
 body div p {
   font-size: 26px;
   text-align: center;
