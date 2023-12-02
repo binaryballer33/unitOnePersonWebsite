@@ -9,6 +9,7 @@ These are all skills that I will be learning and implementing in 2024
 
 #### Quarter 1
 - React & Maybe NextJS
+- CSS Frameworks ( MUI, Tailwind CSS, BoostrapJS )
 - Mongo/Mongoose ( other dbms )
 - Node
 - Express 
