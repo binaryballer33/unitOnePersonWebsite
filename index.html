@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shaq's Personal Website</title>
     <Link rel="stylesheet" href="style.css">  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="scripts.js"></script>
 </head>
-<body>
+<body class="bg-dark">
     <!-- Nav Bar -->
-    <nav class="nav">
+    <nav class="shaqNav">
         <ul>
             <li><a href="./index.html">Home</a></li>
             <li><a href="./work.html">Work</a></li>
@@ -18,15 +19,15 @@
     </nav>
 
     <!-- Page Header -->
-    <h1>Welcome To My Page</h1>
-    <p class="homePageText">Here is a list of things that I want to accomplish each quarter of 2024</p>
+    <h1 class="shaqHeader">Welcome To My Page</h1>
+    <p class="text-white text-center">Here is a list of things that I want to accomplish each quarter of 2024</p>
 	
-    <div class="row">
-        <div class="col col-50">
-            <h2>Quarter 1</h2>
-            <ul>
+    <div class="row text-white p-5" style="box-sizing: border-box;">
+        <div class="col-lg-3 col-md-6 col-sm-12 border rounded m-2" style="background-color: #333;">
+            <h2 class="shaqHeader">Quarter 1</h2>
+            <ul class="fs-3">
                 <li>React & Maybe NextJS</li>
-                <li>Mongo/Mongoose ( other dbms )</li>
+                <li>MongoDB ( other dbms )</li>
                 <li>Node</li>
                 <li>Express</li>
                 <li>Docker & Maybe Kubernetes</li>
@@ -35,18 +36,18 @@
             </ul>
         </div>
         
-        <div class="col col-50">
-            <h2>Quarter 2</h2>
-            <ul>
+        <div class="col-lg-3 col-md-6 col-sm-12 border rounded m-2" style="background-color: #333;">
+            <h2 class="shaqHeader">Quarter 2</h2>
+            <ul class="fs-3">
                 <li>React Native</li>
                 <li>Java Spring Boot, Spring MVC</li>
                 <li>Get First LLC Contract ( Start working )</li>
             </ul>
         </div>
         
-        <div class="col col-50">
-            <h2>Quarter 3</h2>
-            <ul>
+        <div class="col-lg-3 col-md-6 col-sm-12 border rounded m-2" style="background-color: #333;">
+            <h2 class="shaqHeader">Quarter 3</h2>
+            <ul class="fs-3">
                 <li>Algorithmic Trading & Fundamental Analysis w/ Python</li>
                 <li>AWS Developer Associate Certification</li>
                 <li>AWS DevOps Engineer Certification </li>
@@ -54,9 +55,9 @@
             </ul>
         </div>
         
-        <div class="col col-50">
-            <h2>Quarter 4</h2>
-            <ul>
+        <div class="col-lg-3 col-md-6 col-sm-12 border rounded m-2" style="background-color: #333;">
+            <h2 class="shaqHeader">Quarter 4</h2>
+            <ul class="fs-3">
                 <li>Offensive Security Certified Professional (OSCP)</li>
             </ul>
         </div> 

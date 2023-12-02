@@ -1,20 +1,12 @@
-/* Home page styling */
-
-/* About page styling */
-
-/* Work page styling */
-
-/* Common Components */
-
-body {
+/* Page Wide */
+personWebiteBody {
 	font-size: 22px;
 	line-height: 1.5;
 	color: #ffffff;
-	background: #141414;
 }
 
 /* Nav Bar  */
-.nav ul {
+.shaqNav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -22,11 +14,11 @@ body {
     background-color: #333;
 }
   
-.nav li {
+.shaqNav li {
   float: left;
 }
 
-.nav li a {
+.shaqNav li a {
   display: block;
   color: lightblue;
   text-align: center;
@@ -34,7 +26,7 @@ body {
   text-decoration: none;
 }
 
-.nav li a:hover:not(.active) {
+.shaqNav li a:hover:not(.active) {
   background-color: rgb(3, 1, 35);
 }
 
@@ -43,11 +35,13 @@ body {
   text-align: center;
 }
 
-h1, h2 , h3, h4, h5 {
+/* Headers */
+.shaqHeader {
   text-align: center;
   color: lightblue;
 }
 
+/* Images */
 img { 
   width: 100%;
   max-height: 600px;
@@ -62,54 +56,10 @@ img {
   max-height: 600px;
 }
 
+/* Paragraphs */
 body div p {
   font-size: 26px;
   text-align: center;
-}
-
-/* Layouts */
-.row {
-	margin: 0 15px;
-	flex-wrap: wrap;
-	display: flex;
-}
-
-.col {
-	margin: 0 15px 30px;
-	padding: 20px;
-	border-radius: 6px;
-	box-sizing: border-box; /* stops the padding from increasing the width */ 
-	background: rgba(255,255,255,0.12);
-}
-
-.col-100 {
-	width: calc(100% - 30px); /* calc() allows us to do math in CSS and account for the margin width increase */
-}
-
-.col-50 {
-	width: calc(50% - 30px);
-}
-
-.col-33 {
-	width: calc(33.33% - 30px);
-}
-
-.col-25 {
-	width: calc(25% - 30px);
-}
-
-@media screen and (max-width: 1000px) {
-	
-	.col-25 {
-		width: calc(50% - 30px);
-	}
-}
-
-@media screen and (max-width: 800px) {
-	
-	.col-50, .col-33, .col-25 {
-		width: calc(100% - 30px);
-	}
 }
 
 .homePageText {

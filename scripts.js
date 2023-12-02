@@ -1,1 +1,1 @@
-alert("Welcome To Shaq's Page")
+// alert("Welcome To Shaq's Page")
